@@ -1,5 +1,5 @@
-from llama_index import Document, SummaryIndex
-from llama_index.schema import TextNode  
+from llama_index import SummaryIndex 
+from llama_index.schema import Document, TextNode
 
 nodes = [
   TextNode(text="Lionel Messi is a football player from Argentina."),
